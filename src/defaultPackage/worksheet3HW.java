@@ -20,16 +20,30 @@ public class worksheet3HW {
 		
 		// 3 
 	AnimalShelter v1 = new AnimalShelter();
-		
+	
+	
+		// overloaded method adding a dog
 		AnimalShelter.addAnimal("Fluffy", 5);
-		AnimalShelter.addAnimal("Puggy", 7);
+		AnimalShelter.addAnimal("Puggy", 7); 
 
 		
 		v1.displayInfo();
 		
 		AnimalShelter.removeAnimal("Bob"); // No dog name matched this name
 		
-		AnimalShelter.removeAnimal("Fluffy"); // Should be removed
+		AnimalShelter.removeAnimal("Fluffy"); // Should be removed and list is updated
+		
+		
+		
+		//10: 
+		// Correct structure: a,b,f
+		
+		//11 
+		// a- true, b- false, c - true, d - true, e- false, f -true, g- true, h-false
+		
+		
+		//12
+		// a = Overloading, b = method overloading, c = method overriding
 		
 
 	}
